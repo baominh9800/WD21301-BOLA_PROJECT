@@ -1,0 +1,6 @@
+<aside class="account-sidebar"><div class="account-person">
+<span class="avatar">MA</span><div>
+<strong>Minh Anh</strong><small>Tài khoản minh họa</small>
+</div>
+</div>
+<nav class="account-links" aria-label="Tài khoản"><a class="<?= ($accountActive ?? '') === 'profile' ? 'active' : '' ?>" href="<?= e(url('tai-khoan')) ?>"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="7.5" r="3.5"></circle><path d="M4.5 21v-2a7.5 7.5 0 0 1 15 0v2z"></path></svg>Thông tin tài khoản</a><a class="<?= ($accountActive ?? '') === 'orders' ? 'active' : '' ?>" href="<?= e(url('don-hang')) ?>"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="3" width="14" height="19" rx="1"></rect><path d="M9 3V1h6v2M9 8h6M9 12h6M9 16h4"></path></svg>Đơn hàng của tôi</a><a class="<?= ($accountActive ?? '') === 'favorites' ? 'active' : '' ?>" href="<?= e(url('yeu-thich')) ?>"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.4 5.4 0 0 0-7.6 0L12 5.8l-1.2-1.2a5.4 5.4 0 0 0-7.6 7.6L12 21l8.8-8.8a5.4 5.4 0 0 0 0-7.6Z"></path></svg>Sản phẩm yêu thích</a><a class="<?= ($accountActive ?? '') === 'logout' ? 'active' : '' ?>" href="<?= e(url('dang-nhap')) ?>"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 3H4v18h5M10 12h11m-5-5 5 5-5 5"></path></svg>Thoát giao diện mẫu</a></nav></aside>

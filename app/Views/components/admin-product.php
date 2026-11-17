@@ -1,0 +1,1 @@
+<a class="admin-product" href="<?= e($p['status'] === 'live' ? url('san-pham/chi-tiet', ['id' => $p['id']]) : url('admin/san-pham/sua', ['id' => $p['id']])) ?>"><img src="<?= e(asset($p['image'])) ?>" width="43" height="48" alt="<?= e($p['name']) ?>"><span><strong><?= e($p['name']) ?></strong><small><?= e($p['code']) ?></small></span></a>

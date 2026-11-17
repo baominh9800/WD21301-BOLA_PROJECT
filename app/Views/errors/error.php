@@ -1,0 +1,1 @@
+<section class="state-card"><div class="state-symbol"><?= icon('info') ?></div><p class="eyebrow">BOLA / <?= (int) $status ?></p><h1><?= e($title) ?></h1><p><?= e($message) ?></p><a class="button" href="<?= e(url('san-pham')) ?>">Về danh sách sản phẩm</a></section>

@@ -1,0 +1,1 @@
+<?php require APP_ROOT . '/app/Views/client/auth/' . ($register ? 'register' : 'login') . '.php'; ?>

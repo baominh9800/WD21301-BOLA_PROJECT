@@ -1,0 +1,3 @@
+<div class="search-intro"><p class="eyebrow">TÌM KIẾM SẢN PHẨM</p><h1><?= $term === '' ? 'Khám phá sản phẩm' : 'Kết quả cho “' . e($term) . '”' ?></h1><p>Tìm thấy <?= count($products) ?> sản phẩm trong dữ liệu mẫu.</p></div>
+<?php if ($products === []): ?><div class="panel space-bottom"><p>Chưa có mẫu phù hợp. Bạn thử tìm tên, mã hoặc danh mục khác nhé.</p><a class="text-link space-top" href="<?= e(url('san-pham')) ?>">Xem tất cả sản phẩm</a></div>
+<?php else: ?><?php partial('components/product-grid', ['products' => $products, 'colors' => $colors]); ?><div style="height:50px"></div><?php endif; ?>

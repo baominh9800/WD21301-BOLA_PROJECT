@@ -1,0 +1,630 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Balo City Classic",
+      "sub": "Gọn nhẹ cho mỗi ngày",
+      "cat": "laptop",
+      "price": 295000,
+      "colors": [
+        "black"
+      ],
+      "size": "15.6 inch",
+      "stock": 42,
+      "badge": "BÁN CHẠY",
+      "image": "images/balo-01.jpg",
+      "code": "BL001",
+      "range": "mid",
+      "low": 3,
+      "high": 1,
+      "status": "live",
+      "description": "Thiết kế gọn gàng, nhiều ngăn tiện dụng. Dây đeo điều chỉnh được, phù hợp dùng hằng ngày.",
+      "material": "Vải dệt tổng hợp"
+    },
+    {
+      "id": 2,
+      "name": "Balo Urban Caro",
+      "sub": "Một chút khác biệt",
+      "cat": "daily",
+      "price": 295000,
+      "colors": [
+        "cream",
+        "black"
+      ],
+      "size": "14 inch",
+      "stock": 28,
+      "badge": "MỚI",
+      "image": "images/balo-02.jpg",
+      "code": "BL002",
+      "range": "mid",
+      "low": 4,
+      "high": 2,
+      "status": "live",
+      "description": "Thiết kế gọn gàng, nhiều ngăn tiện dụng. Dây đeo điều chỉnh được, phù hợp dùng hằng ngày.",
+      "material": "Da PU"
+    },
+    {
+      "id": 3,
+      "name": "Balo Denim Days",
+      "sub": "Tự do theo cách của bạn",
+      "cat": "daily",
+      "price": 295000,
+      "colors": [
+        "blue",
+        "gray"
+      ],
+      "size": "14 inch",
+      "stock": 18,
+      "badge": "MỚI",
+      "image": "images/balo-03.jpg",
+      "code": "BL003",
+      "range": "mid",
+      "low": 5,
+      "high": 3,
+      "status": "live",
+      "description": "Thiết kế gọn gàng, nhiều ngăn tiện dụng. Dây đeo điều chỉnh được, phù hợp dùng hằng ngày.",
+      "material": "Vải dệt tổng hợp"
+    },
+    {
+      "id": 4,
+      "name": "Balo Metro Commuter",
+      "sub": "Sẵn sàng cho ngày dài",
+      "cat": "laptop",
+      "price": 345000,
+      "colors": [
+        "black"
+      ],
+      "size": "15.6 inch",
+      "stock": 36,
+      "badge": "",
+      "image": "images/balo-04.jpg",
+      "code": "BL004",
+      "range": "over",
+      "low": 11,
+      "high": 0,
+      "status": "live",
+      "description": "Thiết kế gọn gàng, nhiều ngăn tiện dụng. Dây đeo điều chỉnh được, phù hợp dùng hằng ngày.",
+      "material": "Vải dệt tổng hợp"
+    },
+    {
+      "id": 5,
+      "name": "Balo Mini Essential",
+      "sub": "Nhỏ gọn, đủ mọi điều",
+      "cat": "mini",
+      "price": 295000,
+      "colors": [
+        "black"
+      ],
+      "size": "Mini",
+      "stock": 25,
+      "badge": "",
+      "image": "images/balo-05.jpg",
+      "code": "BL005",
+      "range": "mid",
+      "low": 6,
+      "high": 4,
+      "status": "live",
+      "description": "Thiết kế gọn gàng, nhiều ngăn tiện dụng. Dây đeo điều chỉnh được, phù hợp dùng hằng ngày.",
+      "material": "Da PU"
+    },
+    {
+      "id": 6,
+      "name": "Balo Soft Leather",
+      "sub": "Thanh lịch và tối giản",
+      "cat": "daily",
+      "price": 295000,
+      "colors": [
+        "black",
+        "brown"
+      ],
+      "size": "14 inch",
+      "stock": 16,
+      "badge": "",
+      "image": "images/balo-06.jpg",
+      "code": "BL006",
+      "range": "mid",
+      "low": 7,
+      "high": 5,
+      "status": "live",
+      "description": "Thiết kế gọn gàng, nhiều ngăn tiện dụng. Dây đeo điều chỉnh được, phù hợp dùng hằng ngày.",
+      "material": "Da PU"
+    },
+    {
+      "id": 7,
+      "name": "Balo Everyday Leather",
+      "sub": "Người bạn đồng hành mới",
+      "cat": "laptop",
+      "price": 295000,
+      "colors": [
+        "black",
+        "brown"
+      ],
+      "size": "15.6 inch",
+      "stock": 21,
+      "badge": "",
+      "image": "images/balo-07.jpg",
+      "code": "BL007",
+      "range": "mid",
+      "low": 8,
+      "high": 6,
+      "status": "live",
+      "description": "Thiết kế gọn gàng, nhiều ngăn tiện dụng. Dây đeo điều chỉnh được, phù hợp dùng hằng ngày.",
+      "material": "Da PU"
+    },
+    {
+      "id": 8,
+      "name": "Balo Campus Minimal",
+      "sub": "Tối giản, đa năng",
+      "cat": "laptop",
+      "price": 295000,
+      "colors": [
+        "black",
+        "blue"
+      ],
+      "size": "15.6 inch",
+      "stock": 33,
+      "badge": "",
+      "image": "images/balo-08.jpg",
+      "code": "BL008",
+      "range": "mid",
+      "low": 9,
+      "high": 7,
+      "status": "live",
+      "description": "Thiết kế gọn gàng, nhiều ngăn tiện dụng. Dây đeo điều chỉnh được, phù hợp dùng hằng ngày.",
+      "material": "Vải dệt tổng hợp"
+    },
+    {
+      "id": 9,
+      "name": "Balo Street Form",
+      "sub": "Chạm nhẹ phong cách",
+      "cat": "daily",
+      "price": 250000,
+      "colors": [
+        "black",
+        "brown"
+      ],
+      "size": "14 inch",
+      "stock": 19,
+      "badge": "",
+      "image": "images/balo-09.jpg",
+      "code": "BL009",
+      "range": "mid",
+      "low": 1,
+      "high": 10,
+      "status": "live",
+      "description": "Thiết kế gọn gàng, nhiều ngăn tiện dụng. Dây đeo điều chỉnh được, phù hợp dùng hằng ngày.",
+      "material": "Da PU"
+    },
+    {
+      "id": 10,
+      "name": "Balo Mini Ribbon",
+      "sub": "Đi đâu cũng thật xinh",
+      "cat": "mini",
+      "price": 295000,
+      "colors": [
+        "black",
+        "pink"
+      ],
+      "size": "Mini",
+      "stock": 12,
+      "badge": "",
+      "image": "images/balo-10.jpg",
+      "code": "BL010",
+      "range": "mid",
+      "low": 10,
+      "high": 8,
+      "status": "live",
+      "description": "Thiết kế gọn gàng, nhiều ngăn tiện dụng. Dây đeo điều chỉnh được, phù hợp dùng hằng ngày.",
+      "material": "Vải dệt tổng hợp"
+    },
+    {
+      "id": 11,
+      "name": "Túi Crossbody Daily",
+      "sub": "Mang ít hơn, đi xa hơn",
+      "cat": "bag",
+      "price": 195000,
+      "colors": [
+        "black"
+      ],
+      "size": "Nhỏ",
+      "stock": 31,
+      "badge": "",
+      "image": "images/balo-11.jpg",
+      "code": "BL011",
+      "range": "under",
+      "low": 0,
+      "high": 11,
+      "status": "live",
+      "description": "Thiết kế gọn gàng, nhiều ngăn tiện dụng. Dây đeo điều chỉnh được, phù hợp dùng hằng ngày.",
+      "material": "Da PU"
+    },
+    {
+      "id": 12,
+      "name": "Túi Weekender Sport",
+      "sub": "Cho những chuyến đi ngắn",
+      "cat": "bag",
+      "price": 275000,
+      "colors": [
+        "black"
+      ],
+      "size": "Lớn",
+      "stock": 14,
+      "badge": "",
+      "image": "images/balo-12.jpg",
+      "code": "BL012",
+      "range": "mid",
+      "low": 2,
+      "high": 9,
+      "status": "live",
+      "description": "Thiết kế gọn gàng, nhiều ngăn tiện dụng. Dây đeo điều chỉnh được, phù hợp dùng hằng ngày.",
+      "material": "Vải dệt tổng hợp"
+    },
+    {
+      "id": 13,
+      "name": "Balo Archive Sample",
+      "sub": "Gọn nhẹ cho mỗi ngày",
+      "cat": "laptop",
+      "price": 295000,
+      "colors": [
+        "black"
+      ],
+      "size": "15.6 inch",
+      "stock": 0,
+      "badge": "",
+      "image": "images/balo-01.jpg",
+      "code": "BL013",
+      "range": "mid",
+      "low": 3,
+      "high": 1,
+      "status": "hidden",
+      "description": "Thiết kế gọn gàng, nhiều ngăn tiện dụng. Dây đeo điều chỉnh được, phù hợp dùng hằng ngày.",
+      "material": "Vải dệt tổng hợp"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "slug": "laptop",
+      "name": "Balo laptop",
+      "description": "Những thiết kế phù hợp với nhịp sống của bạn."
+    },
+    {
+      "id": 2,
+      "slug": "daily",
+      "name": "Balo hằng ngày",
+      "description": "Những thiết kế phù hợp với nhịp sống của bạn."
+    },
+    {
+      "id": 3,
+      "slug": "mini",
+      "name": "Balo mini",
+      "description": "Những thiết kế phù hợp với nhịp sống của bạn."
+    },
+    {
+      "id": 4,
+      "slug": "bag",
+      "name": "Túi đeo & du lịch",
+      "description": "Những thiết kế phù hợp với nhịp sống của bạn."
+    }
+  ],
+  "colors": {
+    "black": {
+      "name": "Đen",
+      "hex": "#252625"
+    },
+    "cream": {
+      "name": "Kem",
+      "hex": "#dcd3bc"
+    },
+    "blue": {
+      "name": "Xanh denim",
+      "hex": "#a9bdc9"
+    },
+    "brown": {
+      "name": "Nâu",
+      "hex": "#876746"
+    },
+    "gray": {
+      "name": "Xám",
+      "hex": "#9d9d98"
+    },
+    "pink": {
+      "name": "Hồng",
+      "hex": "#d7afb0"
+    }
+  },
+  "users": [
+    {
+      "id": 1,
+      "name": "Minh Anh",
+      "email": "minhanh@example.com",
+      "status": true,
+      "role": "Customer",
+      "created_at": "10/11/2026"
+    },
+    {
+      "id": 2,
+      "name": "Quốc Bảo",
+      "email": "quocbao@example.com",
+      "status": true,
+      "role": "Customer",
+      "created_at": "10/11/2026"
+    },
+    {
+      "id": 3,
+      "name": "Khánh Linh",
+      "email": "khanhlinh@example.com",
+      "status": true,
+      "role": "Customer",
+      "created_at": "10/11/2026"
+    },
+    {
+      "id": 4,
+      "name": "Gia Huy",
+      "email": "giahuy@example.com",
+      "status": true,
+      "role": "Customer",
+      "created_at": "10/11/2026"
+    },
+    {
+      "id": 5,
+      "name": "Thảo Vy",
+      "email": "thaovy@example.com",
+      "status": true,
+      "role": "Customer",
+      "created_at": "10/11/2026"
+    },
+    {
+      "id": 6,
+      "name": "Tài khoản thử",
+      "email": "taikhoanthu@example.com",
+      "status": false,
+      "role": "Customer",
+      "created_at": "10/11/2026"
+    }
+  ],
+  "orders": [
+    {
+      "id": "001",
+      "user_id": 1,
+      "product_id": 1,
+      "status": "Đang giao",
+      "tone": "blue",
+      "payment_status": "Chưa thanh toán",
+      "quantity": 1,
+      "date": "14/11/2026"
+    },
+    {
+      "id": "002",
+      "user_id": 1,
+      "product_id": 2,
+      "status": "Đã giao",
+      "tone": "green",
+      "payment_status": "Đã thanh toán",
+      "quantity": 1,
+      "date": "14/11/2026"
+    },
+    {
+      "id": "003",
+      "user_id": 3,
+      "product_id": 3,
+      "status": "Chờ xác nhận",
+      "tone": "orange",
+      "payment_status": "Chưa thanh toán",
+      "quantity": 1,
+      "date": "14/11/2026"
+    },
+    {
+      "id": "004",
+      "user_id": 4,
+      "product_id": 4,
+      "status": "Đã xác nhận",
+      "tone": "blue",
+      "payment_status": "Chưa thanh toán",
+      "quantity": 1,
+      "date": "14/11/2026"
+    },
+    {
+      "id": "005",
+      "user_id": 5,
+      "product_id": 11,
+      "status": "Đã hủy",
+      "tone": "gray",
+      "payment_status": "Chưa thanh toán",
+      "quantity": 1,
+      "date": "14/11/2026"
+    }
+  ],
+  "comments": [
+    {
+      "id": "001",
+      "author": "Minh Anh",
+      "product_id": 1,
+      "content": "Mẫu này có ngăn để đồ khá tiện. Balo có thể điều chỉnh dây đeo không ạ?",
+      "status": "Đã duyệt",
+      "tone": "green",
+      "date": "14/11/2026"
+    },
+    {
+      "id": "002",
+      "author": "Khánh Linh",
+      "product_id": 3,
+      "content": "Màu denim này có thêm size lớn không ạ?",
+      "status": "Chờ duyệt",
+      "tone": "orange",
+      "date": "14/11/2026"
+    },
+    {
+      "id": "003",
+      "author": "Gia Huy",
+      "product_id": 4,
+      "content": "Shop tư vấn giúp mình ngăn laptop của mẫu này nhé.",
+      "status": "Chờ duyệt",
+      "tone": "orange",
+      "date": "14/11/2026"
+    },
+    {
+      "id": "004",
+      "author": "Tài khoản thử",
+      "product_id": 2,
+      "content": "Nội dung minh họa đang được ẩn để kiểm duyệt.",
+      "status": "Đang ẩn",
+      "tone": "gray",
+      "date": "14/11/2026"
+    }
+  ],
+  "variants": [
+    {
+      "code": "BT0011",
+      "product_id": 1,
+      "color": "black",
+      "size": "15.6 inch",
+      "price": 295000,
+      "stock": 42
+    },
+    {
+      "code": "BT0021",
+      "product_id": 2,
+      "color": "cream",
+      "size": "14 inch",
+      "price": 295000,
+      "stock": 14
+    },
+    {
+      "code": "BT0022",
+      "product_id": 2,
+      "color": "black",
+      "size": "14 inch",
+      "price": 295000,
+      "stock": 14
+    },
+    {
+      "code": "BT0031",
+      "product_id": 3,
+      "color": "blue",
+      "size": "14 inch",
+      "price": 295000,
+      "stock": 9
+    },
+    {
+      "code": "BT0032",
+      "product_id": 3,
+      "color": "gray",
+      "size": "14 inch",
+      "price": 295000,
+      "stock": 9
+    },
+    {
+      "code": "BT0041",
+      "product_id": 4,
+      "color": "black",
+      "size": "15.6 inch",
+      "price": 345000,
+      "stock": 36
+    },
+    {
+      "code": "BT0051",
+      "product_id": 5,
+      "color": "black",
+      "size": "Mini",
+      "price": 295000,
+      "stock": 25
+    },
+    {
+      "code": "BT0061",
+      "product_id": 6,
+      "color": "black",
+      "size": "14 inch",
+      "price": 295000,
+      "stock": 8
+    },
+    {
+      "code": "BT0062",
+      "product_id": 6,
+      "color": "brown",
+      "size": "14 inch",
+      "price": 295000,
+      "stock": 8
+    },
+    {
+      "code": "BT0071",
+      "product_id": 7,
+      "color": "black",
+      "size": "15.6 inch",
+      "price": 295000,
+      "stock": 11
+    },
+    {
+      "code": "BT0072",
+      "product_id": 7,
+      "color": "brown",
+      "size": "15.6 inch",
+      "price": 295000,
+      "stock": 10
+    },
+    {
+      "code": "BT0081",
+      "product_id": 8,
+      "color": "black",
+      "size": "15.6 inch",
+      "price": 295000,
+      "stock": 17
+    },
+    {
+      "code": "BT0082",
+      "product_id": 8,
+      "color": "blue",
+      "size": "15.6 inch",
+      "price": 295000,
+      "stock": 16
+    },
+    {
+      "code": "BT0091",
+      "product_id": 9,
+      "color": "black",
+      "size": "14 inch",
+      "price": 250000,
+      "stock": 10
+    },
+    {
+      "code": "BT0092",
+      "product_id": 9,
+      "color": "brown",
+      "size": "14 inch",
+      "price": 250000,
+      "stock": 9
+    },
+    {
+      "code": "BT0101",
+      "product_id": 10,
+      "color": "black",
+      "size": "Mini",
+      "price": 295000,
+      "stock": 6
+    },
+    {
+      "code": "BT0102",
+      "product_id": 10,
+      "color": "pink",
+      "size": "Mini",
+      "price": 295000,
+      "stock": 6
+    },
+    {
+      "code": "BT0111",
+      "product_id": 11,
+      "color": "black",
+      "size": "Nhỏ",
+      "price": 195000,
+      "stock": 31
+    },
+    {
+      "code": "BT0121",
+      "product_id": 12,
+      "color": "black",
+      "size": "Lớn",
+      "price": 275000,
+      "stock": 14
+    }
+  ]
+}
