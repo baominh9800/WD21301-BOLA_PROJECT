@@ -1,5 +1,29 @@
+# 1. File cấu hình nhạy cảm / cá nhân từng máy
+/config/database.php
 .env
 .env.local
+
+# 2. Thư viện bên thứ 3 (nếu nhóm có dùng Composer)
+/vendor/
+composer.phar
+
+# 3. File ảnh / tài liệu người dùng upload khi test trên localhost
+/public/assets/images/uploads/*
+!/public/assets/images/uploads/.gitkeep
+
+# 4. File log và cache hệ thống
 *.log
+/logs/
+/cache/
+/tmp/
+
+# 5. File cấu hình riêng của IDE / Trình soạn thảo code
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# 6. File rác tự sinh của hệ điều hành (Windows & macOS)
 .DS_Store
-vendor/
+Thumbs.db
+desktop.ini
